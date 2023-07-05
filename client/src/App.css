@@ -1,0 +1,81 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.total {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.cgst-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cgst-label {
+  font-weight: bold;
+}
+
+.cgst-value {
+  text-align: right;
+}
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+  align-items: flex-end;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.narration-label {
+  font-weight: bold;
+}
+
+.narration-value {
+  text-align: right;
+}
+.total-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 90px;
+  align-items: center;
+}
+
+.total-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.total-value {
+  text-align: right;
+}
+
